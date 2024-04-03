@@ -1,0 +1,2 @@
+# ローカルのティレクトリをリモートサーバーに転送するコマンド
+scp -r /path/to/local/directory username@remote_host:/path/to/remote/directory
