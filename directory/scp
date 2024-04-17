@@ -1,2 +1,5 @@
 # ローカルのティレクトリをリモートサーバーに転送するコマンド
-scp -r /path/to/local/directory username@remote_host:/path/to/remote/directory
+scp -r /path/to/local/directory username@remote_host_ip:/path/to/remote/directory
+
+#リモートのディレクトリをローカルPCにコピーするコマンド
+sudo scp -r username@remote_host_ip:/path/to/remote/directory /path/to/local/directory
