@@ -1,4 +1,4 @@
-※ ローカルのコマンド上で行う
+※ ローカルPCのコマンド上で行う
 
 # ローカルのティレクトリをリモートサーバーに転送するコマンド
 scp -r /path/to/local/directory username@remote_host_ip:/path/to/remote/directory
